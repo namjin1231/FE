@@ -13,21 +13,21 @@ export default function NearbyPage() {
       id: 1,
       name: "GS25 북구신화점",
       address: "대구 북구 경대로5길 24-1",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-slsfpz9UMHw158FoFp6A6Yy29WtgzS.png",
+      image: "/images/store_1.jpg",
       type: "GS25",
     },
     {
       id: 2,
       name: "CU 경북대백문점",
       address: "대구 북구 대현로길 39 (산격동)",
-      image: "/placeholder.svg?height=120&width=120&query=CU convenience store front",
+      image: "/images/store_2.jpg",
       type: "CU",
     },
     {
       id: 3,
       name: "세븐일레븐 대구북현점",
       address: "대구 북구 영진로 7",
-      image: "/placeholder.svg?height=120&width=120&query=7-Eleven convenience store front",
+      image: "/images/store_3.jpg",
       type: "세븐일레븐",
     },
   ]
@@ -70,7 +70,7 @@ export default function NearbyPage() {
               top: "5px",
               fontFamily: "Pretendard",
               fontWeight: 500,
-              fontSize: "18px",
+              fontSize: "16px",
               lineHeight: "27px",
               letterSpacing: "-0.015em",
             }}

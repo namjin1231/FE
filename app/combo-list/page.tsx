@@ -175,16 +175,16 @@ export default function ComboListPage() {
         </>
       )}
 
-    {/* Divider Line - 초기 화면에서만 표시 */}
-{selectedCategory === null && (
-  <div
-    className="absolute"
-    style={{
-      width: "250px",
-      height: "0px",
-      left: "calc(50% - 250px/2 + 0.5px)",
-      top: "250px", // 초기 화면 전용 위치
-      border: "0.7px solid #D0D0D0",
+    {/* Divider Line */}
+    {selectedCategory === null && (
+      <div
+      className="absolute"
+      style={{
+        width: "250px",
+        height: "0px",
+        left: "calc(50% - 250px/2 + 0.5px)",
+        top: "250px", 
+        border: "0.7px solid #D0D0D0",
     }}
   />
 )}
