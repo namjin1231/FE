@@ -71,7 +71,7 @@ export default function MainPage() {
       >
         <HotPostsList />
       </div>
-
+      
       {/* Main Menu Images */}
       {/* 편의점 - 왼쪽 위 */}
       <button

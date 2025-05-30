@@ -17,7 +17,10 @@ export default function ComboListPage() {
   const sortedCombos = sortOrder === "등록순" ? [...combos].reverse() : combos
 
   const getBannerSrc = (category: string | null) => {
-    if (category === "하체린지") return "/images/hot.png"
+    if (category === "핫체린지") return "/images/hot.png"
+    if (category === "저렴조합") return "/images/cheap.png"
+    if (category === "다이어트") return "/images/diet.png"
+    if (category === "유명조합") return "/images/popular.png"
     if (category) return `/images/category-banners/${category}.png`
     return ""
   }
@@ -54,7 +57,7 @@ export default function ComboListPage() {
       {/* 카테고리 버튼들 */}
       {[
         { name: "저렴조합", left: 19, icon: "group-36.png" },
-        { name: "하체린지", left: 105, icon: "group-37.png" },
+        { name: "핫체린지", left: 105, icon: "group-37.png" },
         { name: "다이어트", left: 191, icon: "group-38.png" },
         { name: "유명조합", left: 277, icon: "group-39.png" },
       ].map((cat) => (
